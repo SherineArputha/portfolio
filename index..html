@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sherine Arputha Maria John Kennedy — Operational Excellence &amp; AI Adoption</title>
+<meta name="description" content="Operational Excellence Senior Analyst and L4 AI Champion. Seven years optimizing operations — process governance, budget control and analytics — now accelerated with Claude AI and Microsoft Copilot.">
+<meta property="og:title" content="Sherine Arputha Maria John Kennedy">
+<meta property="og:description" content="Operational Excellence – Senior Analyst | L4 AI Champion. Process standardisation, budget governance, dashboards, and hands-on AI adoption in Life Sciences operations.">
+<meta property="og:type" content="profile">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  /* ---------- palette: navy + radiant azure, light and dark ---------- */
+  :root{
+    --bg:#F6F9FD; --wash:radial-gradient(120% 90% at 82% -8%, #E4EFFF 0%, rgba(228,239,255,0) 60%);
+    --surface:#FFFFFF; --surface-2:#F0F5FC;
+    --ink:#0B1F3A; --heading:#08182E;
+    --accent:#1D5FD0; --accent-soft:#E7F0FF;
+    --gold:#A97F1C;
+    --muted:#54657E; --rule:#DCE6F3;
+    --shadow:0 1px 2px rgba(11,31,58,.06), 0 8px 24px rgba(11,31,58,.05);
+    --measure:44rem;
+  }
+  [data-theme="dark"]{
+    --bg:#07131F; --wash:radial-gradient(120% 90% at 82% -8%, #113155 0%, rgba(17,49,85,0) 62%);
+    --surface:#0F2138; --surface-2:#132A46;
+    --ink:#DCE8F7; --heading:#F2F7FF;
+    --accent:#68A8FF; --accent-soft:#132A46;
+    --gold:#E4BE5E;
+    --muted:#95AECC; --rule:#1F3A5C;
+    --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 30px rgba(0,0,0,.28);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme]){
+      --bg:#07131F; --wash:radial-gradient(120% 90% at 82% -8%, #113155 0%, rgba(17,49,85,0) 62%);
+      --surface:#0F2138; --surface-2:#132A46;
+      --ink:#DCE8F7; --heading:#F2F7FF;
+      --accent:#68A8FF; --accent-soft:#132A46;
+      --gold:#E4BE5E;
+      --muted:#95AECC; --rule:#1F3A5C;
+      --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 30px rgba(0,0,0,.28);
+    }
+  }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{margin:0;background:var(--bg);background-image:var(--wash);
+    background-repeat:no-repeat;background-size:100% 46rem;color:var(--ink);
+    font-family:"Karla",Segoe UI,system-ui,sans-serif;font-size:17px;line-height:1.65;
+    -webkit-font-smoothing:antialiased;transition:background-color .2s ease,color .2s ease}
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:700;letter-spacing:-.01em;
+    margin:0;color:var(--heading)}
+  a{color:var(--accent)}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+  p{max-width:var(--measure)}
+
+  .shell{display:grid;grid-template-columns:15rem minmax(0,1fr);gap:3.5rem;
+    max-width:70rem;margin:0 auto;padding:0 1.5rem}
+  .shell > *{min-width:0}
+
+  /* ---------- index rail ---------- */
+  .rail{position:sticky;top:0;align-self:start;height:100vh;padding:3.5rem 0;
+    display:flex;flex-direction:column;gap:1.5rem}
+  .rail .mark{font-family:"Fraunces",Georgia,serif;font-size:1.05rem;line-height:1.3;
+    color:var(--heading)}
+  .rail .mark span{display:block;color:var(--muted);font-family:"Karla",sans-serif;
+    font-size:.82rem;margin-top:.35rem}
+  .rail nav{display:flex;flex-direction:column;gap:.1rem;
+    border-top:1px solid var(--rule);padding-top:1.1rem}
+  .rail nav a{text-decoration:none;color:var(--muted);font-size:.92rem;padding:.26rem 0}
+  .rail nav a:hover{color:var(--ink)}
+  .rail .foot{margin-top:auto;font-size:.8rem;color:var(--muted)}
+  .rail .foot a{display:inline-block;margin-top:.5rem;font-weight:700;text-decoration:none}
+
+  #theme{align-self:flex-start;display:inline-flex;align-items:center;gap:.45rem;
+    background:var(--surface);color:var(--muted);border:1px solid var(--rule);
+    border-radius:999px;padding:.4rem .8rem;font:inherit;font-size:.82rem;
+    cursor:pointer;box-shadow:var(--shadow)}
+  #theme:hover{color:var(--ink)}
+  #theme .dot{width:.7rem;height:.7rem;border-radius:50%;
+    background:linear-gradient(140deg,var(--accent),var(--gold))}
+
+  main{padding:3.5rem 0 5rem}
+  section{padding:3rem 0;border-top:1px solid var(--rule)}
+  section:first-of-type{border-top:0;padding-top:0}
+  section > h2{font-size:1.5rem;margin-bottom:.5rem}
+  .lede{max-width:var(--measure);color:var(--muted);margin:.4rem 0 1.7rem}
+
+  /* ---------- hero ---------- */
+  .hero{display:flex;gap:2.2rem;align-items:flex-start;flex-wrap:wrap}
+  .hero .text{flex:1 1 22rem}
+  .hero h1{font-size:clamp(2.05rem,4.8vw,3rem);line-height:1.06}
+  .role{margin:.9rem 0 0;font-size:1.05rem;font-weight:700;color:var(--accent)}
+  .role em{font-style:normal;color:var(--ink);font-weight:500}
+  .portrait{flex:0 0 8.5rem;width:8.5rem;height:8.5rem;border-radius:50%;
+    object-fit:cover;border:3px solid var(--accent);box-shadow:var(--shadow)}
+  .hero p.pitch{margin:1.1rem 0 0}
+
+  dl.snapshot{margin:1.7rem 0 0;max-width:var(--measure)}
+  dl.snapshot div{display:flex;align-items:baseline;gap:.6rem;padding:.42rem 0;
+    border-bottom:1px dotted var(--rule)}
+  dl.snapshot dt{flex:0 0 8.5rem;color:var(--muted);font-size:.9rem}
+  dl.snapshot dd{margin:0;font-weight:500}
+
+  /* ---------- proof strip ---------- */
+  .proof{display:grid;grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr));
+    gap:1.5rem;max-width:52rem;margin:2rem 0 0;padding-top:1.4rem;
+    border-top:2px solid transparent;
+    border-image:linear-gradient(90deg,var(--accent),var(--gold)) 1}
+  .proof div strong{display:block;font-family:"Fraunces",Georgia,serif;font-size:1.9rem;
+    line-height:1;color:var(--accent)}
+  .proof div span{display:block;margin-top:.35rem;font-size:.88rem;color:var(--muted)}
+
+  /* ---------- chapters ---------- */
+  .chapter{max-width:var(--measure);padding:0 0 2.2rem}
+  .chapter:last-of-type{padding-bottom:0}
+  .chapter .era{font-size:.85rem;color:var(--gold);font-weight:700;
+    font-variant-numeric:tabular-nums;margin:0}
+  .chapter h3{font-size:1.22rem;margin:.3rem 0 .55rem}
+  .chapter .where{color:var(--muted);font-size:.94rem;margin:0 0 .7rem}
+
+  ul.rows{list-style:none;margin:0;padding:0;max-width:var(--measure)}
+  ul.rows > li{padding:1rem 0;border-bottom:1px solid var(--rule)}
+  ul.rows > li:first-child{border-top:1px solid var(--rule)}
+  ul.rows h3{font-size:1.02rem;font-family:"Karla",sans-serif;font-weight:700}
+  ul.rows p{margin:.3rem 0 0;color:var(--muted)}
+  ul.rows .impact{display:inline-block;margin-top:.5rem;font-size:.86rem;
+    color:var(--gold);font-weight:700}
+
+  .tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));
+    gap:1.4rem 2rem;max-width:52rem}
+  .tools div{border-top:2px solid var(--accent);padding-top:.7rem}
+  .tools h3{font-family:"Karla",sans-serif;font-size:.98rem}
+  .tools p{margin:.25rem 0 0;color:var(--muted);font-size:.94rem}
+
+  .feature{max-width:var(--measure);background:var(--surface);
+    border:1px solid var(--rule);border-left:4px solid var(--gold);
+    border-radius:0 6px 6px 0;padding:1.25rem 1.4rem;margin:0 0 1.3rem;
+    box-shadow:var(--shadow)}
+  .feature .kind{font-size:.84rem;color:var(--gold);font-weight:700;margin:0}
+  .feature h3{font-size:1.12rem;margin:.35rem 0 .5rem;line-height:1.3}
+  .feature p{margin:0;color:var(--muted)}
+
+  .contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));
+    gap:1.2rem 2rem;max-width:52rem;padding:0;list-style:none;margin:1.2rem 0 0}
+  .contact li{border-top:1px solid var(--rule);padding-top:.7rem;font-size:.95rem}
+  .contact span{display:block;color:var(--muted);font-size:.85rem;margin-bottom:.2rem}
+  .years{color:var(--muted);font-size:.88rem;font-variant-numeric:tabular-nums}
+
+  @media (max-width:900px){
+    .shell{grid-template-columns:1fr;gap:0}
+    .rail{position:static;height:auto;padding:1.6rem 0 1rem;
+      flex-direction:row;flex-wrap:wrap;align-items:center;gap:1rem}
+    .rail .mark{flex:1 1 12rem}
+    .rail nav{order:3;flex:1 1 100%;flex-direction:row;overflow-x:auto;gap:1.1rem;
+      padding-bottom:.4rem;min-width:0}
+    .rail nav a{white-space:nowrap}
+    .rail .foot{display:none}
+    #theme{order:2}
+    main{padding:1.5rem 0 3.5rem}
+    dl.snapshot dt{flex:0 0 7rem;font-size:.85rem}
+    body{background-size:100% 30rem}
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+
+  <header class="rail">
+    <div class="mark">Sherine Arputha<br>Maria John Kennedy
+      <span>Operational excellence &amp; AI adoption</span>
+    </div>
+    <nav aria-label="Sections">
+      <a href="#story">The short version</a>
+      <a href="#foundations">Before AI</a>
+      <a href="#ai">Adopting AI</a>
+      <a href="#work">Process excellence</a>
+      <a href="#recognition">Recognition</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme" type="button" aria-pressed="false">
+      <span class="dot" aria-hidden="true"></span><span id="themeLabel">Dark mode</span>
+    </button>
+    <p class="foot">Bangalore, India<br>Open to operational excellence, business operations and program management roles.
+      <a href="mailto:sherinarpa14@gmail.com">Email me</a></p>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="text">
+        <h1>Seven years optimizing operations. Now accelerating them with AI.</h1>
+        <p class="role">L4 — AI Champion <em>| Operational Excellence — Senior Analyst</em></p>
+        <p class="pitch">I am an Operational Excellence professional with 7+ years of experience building the
+          processes, governance frameworks, and insights that enable leaders to make informed business decisions.
+          At Cognizant, I oversee travel and expense governance for Americas Life Sciences, provide the reporting
+          used for budgeting decisions, and created the documentation standards and knowledge repositories that have
+          improved operational consistency across the function.</p>
+        <p class="pitch">Throughout my career, I have focused on turning fragmented, manual activities into scalable
+          and measurable operating models powered by data and analytics. Recognizing the transformational potential of
+          AI early, I achieved Cognizant's highest AI proficiency level, L4 AI Champion, and actively leverage
+          Claude AI and Microsoft Copilot to reimagine productivity and decision-making. My mission is to combine
+          operational rigor, data-driven insights, and AI innovation to build smarter, more resilient organizations
+          and deliver measurable business impact at scale.</p>
+        <dl class="snapshot">
+          <div><dt>Current</dt><dd>Operational Excellence — Senior Analyst, Cognizant Technology Solutions</dd></div>
+          <div><dt>Scope</dt><dd>T&amp;E budget governance, bench management, resourcing, reporting, process design</dd></div>
+          <div><dt>AI standing</dt><dd>Level 4 — AI Champion, the highest fluency band</dd></div>
+          <div><dt>Working with</dt><dd>Claude AI, Microsoft Copilot, Bluebolt, Qlik, Excel, PCB Robo, Prism</dd></div>
+        </dl>
+      </div>
+      <img class="portrait" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAFoAWgDASIAAhEBAxEB/8QAHAAAAgIDAQEAAAAAAAAAAAAAAAEEBQMGBwII/8QAPxAAAQMCBQIFAgQFAgQGAwAAAQACAwQRBRIhMUEGUQcTYXGBIqEUMpGxCBUjQsFS0UNicoIWJCUm4fA0RJL/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAJxEBAQADAAICAgICAgMAAAAAAAECAxEhMQQSQVETMiIjBRQzYXH/2gAMAwEAAhEDEQA/AO/oO9gn7I73XUwK2uqd7oSGiAGtkDdPi6EAl76I5T3QL2TRxsj90BdJNGyASRY3TQARsjnuhAIQjdAkwEI+6AQi6QQPlHdBR6oC9kHbVCNEB8IRrwj1QHF0IRugOEXR7o43QCEr7J2UA2RxoUuUyFIOEcoSKBj3SR7J/CANkrXRbunZAJa2TR7IDshHCEC9EJ+tkaboBK+ifoj20QJNCSAvfhNBGuiNjdAjsjlNLQ+iA0QSj13T4QCL8JD1RygaOUX0ujRAv0T7aosgWQFr3QgLy5zW7vyoPSFHnrKamYHzVDGNJtcndZIKiCpb5kErJWnlpuoGRC8GVo4P6KkrutcJw6u/BTzBs1w0i+10F990t1Wt6lwdxsMQpyRwHgrN/OsOswuq44y8gNDzlOu26kTUfKPkIsgL3CW4T04QgEuE0tAgLX33T21Ql7oGgo7I9bqAIN0DUoUgQi3CSA9E0kX9ED3Ql6I2QCE+UIEdwAmjS6SB7+6EXRcIEn3S9k0B6oQlygfKLI2RdAeiAEbfKLIFug6p7pboDSyaAEIDVCL2vfZaf1715B0tg81REQZiRHGbXBedkFr1D1dhvTmVtU97pXNLwxjSSGjdx7D1XDetPG7EqzEZoMJcKalH0+YRd7gO3a61jEvEXE6uGeeWrbU1ErmtmzDQsF/pA4BJ1WkVVR5spcLN1Jb7FUuTSY/tsTvEDEqrE4cQqKiaWeN4fHneSyKxvo1X58bcYpazz4TAw2OaNjSGuPF1zbIbgtNlFlBEh4sd1H2T9XVZfG/qaVkjql5jkeD5QaC0N7G3ZaTWdT4hWSy1M9W6aeZxLnu1d2vdUIzPaTclzu5TbGQ0XcAn2OLrDuoqyjqopo6hzTDqD3KuKfrapa4/iJJJA4h7vMeXOdIPyknsFphlye6BNZuZ2p4UdqXYaTx2xyF7i+eOUaBoezYDfblbtgf8QMEmQ4pShkTjYOjNz6my+amPd8lWFPlEYIILthr91MtV+sfbWEY9hmPUranDquOeN2uh1CsCviOg6mxfA5Guo6yaI5swEbz912Xob+ICZgjpeo4Q+PQGpZ+ZvqRyrTL9q3D9O7lH3UXDMUosZo46zD6mKogkF2vYbgqVspVJNB7oupCTS2TugLIRwkUDR7I5SGiB6eyBsi10dkBvqjlI+6LoHyhCECTKO2iLIDhHCSDogf7I1sj4RsgWyeyQ5ui6BoRdLnVAHsjZNHCARyi6OUAkXAC52G6a0PrzrllAJcLw2aM1QH9aQkWiB4ty79lF8J51m6s6whpmGBlQ2JhNnOvYnv8AC4H1l1ZUY9Wujlla6BjyI2M/LvofdeOpuopZpHh1XPK++rw8gX9lp807nuLjqTzyVS5NJjx6nhayV4DwLHcbFR3x5+QT3CzRRySuA1I7K0o+mqqplBiY57N3aWKzy2Se2mOFvpWU1L9DzlvYXHcLG+h8wtLgWh5sTa+q6DRdJsyEOF3W0uLEKY3o+JrWZmhxbsf91zX5M66J8auYSQNhYQGaHuNVHfTPLMzm2JFwFv8AjHTL2vHljKzS5sqaowaYktyE+myvjulVy0WNPkjIdYDU8rz5R/8AhbA7p+oa43jO+/CjVOESwkXZYH03WszlZXXlFMXWWSGp8s3I19FllpshOwPsormEFW6pxawyte3M7KOw5TBcDlYCWk3Om6rIpSzTdW1IWuaLOsOwO6t1DfvDzxLm6QL4JqeV1G7Vojdqx3Jtzddv6T8WMFx+SnpZahkM0+jM+mv+k32K+YR5DG5pJYoiNr6uSfXujyOgrsrr7NOUj1SZcRcZX21cHUahHC5B4M+KFXjj2YFjU0T52R2gnJsZSP7T3Nl1/stJes7OeBZCPdClA+EeiOUcoFueyZ0Rb1RZAWuhJA32QMWOiR7J90IC40QiyECPdFtE7JX9EAndF0vhA9UifRMIQIo9AUHQIvtZA+bJappIHdCEIBCF5lkbFG57yGtaLkngINY8Qeqz0vgxNNY11STHAD/aeXn0A1/RfPGM4xVQNcPNyyPJLidXuJ3Lj3K3HrXqZ/UVVLiGYxxG7aUE/lhB0Pu4i/tZc0xQhznEyDTckrLK9bYzkVU00ssh8yUuJ9FlpcNdUv0Dnd7BKmjMko8tl+NRuuidL9LaNMxc6Q6kDQNWGzZ9W+vX9qq8B6Ue97XvjLWAX13W5U2DxwRNAG3CvKXBY4G6C55Wd9KBwuDblcnoasJipGUYbsvf4cgbkKydTHhJtMTuFjyt+xTVNIZhZ1nelt1XT4Y11yWacG2oW0uphe3dY5KPMNgp8o8VpkuFnVv1fGxVZWYK8g6kj/pW9S0QFm2I7FYJaP6dtVMzyiPpK5VifT8mrmtB9lQVWDTBpIbey69VYc1wcMl1rWI4WGOcctvULfXvvqufZ8fG+Y5saRwJv8rLECwZQ79FdYlQmOS+X9Aqt8eR2tgV245d8uDLDl4zwBuXUC45KQawP2zE9wvLH5raDROT6TcXIWsZ2M1LXyYbUNlp5HxyscHNfG6xa4bEFfU3g/4hu66wN7K2wxKisyVw0EoI0fbg9x3Xye7NcENuug+CnU//AId60p2TEinxC1K+5sA4n6Xfrp8qZ4qtnY+rLD5St6p2FgUHZasgjndGwSsgaEreqED4sknylfi6Bot6oCW2pQPndCXqQhQHruhL50RaykNLUoFtU99NkAlsE0kD5RylZP4QJPZG4QgEIQgFzrxox+agwOHCqSYRS4g8tlcDYthaLvt76N+V0VfPfijjP8z6zxJ9y6nwqEQi21wMzr/JAVNl5F8J3Jo+OYx5ZLPMaA0WDBsP/gLVpa78TKAXG191Drqp75XFziXO1K94NTvra6KFouXOtZYW8jaebxv/AETgTauZs7mlwH5R/ldfwvDo6WFtm5Rb5KrOi+mm0GHxmRupAJPdbRKGsFhpZcOd75ehjjJOMWQNb29FGeGFx0XuaQ2009VgB9VlW2MPKEsrV6BHZPQqYlhdCCbjheHMAWZ1l4JAU8Oo8kYI7rA6nGpUx1rrFI8Nbb7KtiYqamEa20VLXUjZL/SFf1DgSbKsqBmBIWfpfjScWwwPDsrdePVaZiEJje4G4911SqgEguRYhah1DhOYGVjNTuPVdOnbzxXPv09nY0vPl33Wdjs9je9vuo1TGYnH0ShmF8t916GNeblOeFjFHmduNVL8zL5csbiHxuDg5v8AaQdCoMUltWjZZHElrrHQ8d1a+VX2R0N1A3qrpPDcVaWl80QEgHDxo4fqCr2y5H/DViBm6QxChe+5pK0lo5Ae0H9wV1xay9jCzlGgOiOUI9tlKC1TslxZO36oBHOqLo2QBQlumgEIuhAJJoQIWCaEcIC6EccoO3qgXqn6o5QEBuhCEAhCFI8zSCKJ8jtmNLj8BfKvWb5osLmqXiz8SmlrZXNGuVz/AKQT+i+mupHSN6exMwm0gpZcvvkNl8u+IeJQVGG0hY4uE8LBGXaZYYwAdOcz7/AWO3001+3NZ5Mzzr7re/CvCRWYv+Je27YhoPVc+N3SabXXa/CjDDBhRnc2xk12XHvy5i6/j49zdcpy1tOwMGlkngv42SYBFAwvcGi3Jsn+Jp22BnjB7Zguf27PTA6FzljdCWqc18ThdsjHexBTc1rhuq3FaZq4Msdk7FSjEFieyxTnFu9YHBYiFne3heTGSdAUSivBvoo8zXHVWBhcTaxXiWm+gqtlTMuKKcOF7KDOCQryakNiq6elIBFlnZWkyiokiJuQbe6ra+lE0LmOaQe6vHxHso8kOcWI1SdS5Nj9CYpSS3e+3da48lj10zqjCyY3OtZ24Pdc4q2ZXm4svQ0bOzjzfk6+XrLTVOgBVjA/Ptr2BVFG4Aq1oXkvaOCdCunrjdu/hvxB8WP4vh//AA56Vk3s5jrfs5fQK+df4d4v/eFbIT/+i4Af97V9FW0Wuv0yz8ZDlL5TSKuoaN0JcIAp7IQgOUXCNkeiAFghG/qhOA3Qj42RblAWQl3R7IH8pfKfZFvlAJW+U/sjZAIQhAIQhSI2JxGfDqqIbvhe0fLSvivqitdPT4bSuy56alERI5OYk/psvt0hfE/iPQDCescWoQLeTWSZRwATcfYrHb6a6vdUGG0bq2tip2NJL3AADlfSOBUEHT2Cwsmc1oY0Zj3PZcb8J8JGIdQtmkF2U4zAdyu41lJ58kRebQwtuB3cefgLz917lx6Oicx617HcTxXEZbUsTmN3bdwuG8WB0BWn4pH1LAHPfhtQ+Ial7Hh5+QuhVFfBRsc27GtHotbqerMOnkdBE+Wd40LYI3SW/wD5Czm7npt/D2NLh6qrad5ZHOYpB3BafkcFbHgXiTX+ZHHUyZ2uIaXn+0+v+6gY0KSsF6nD6rKP7padwI+d1QQ4ZTyy5qSp+nsTt7rT+XGzzGf8OU9O0YX1OyqcBm0JykE/lcrkVAeA691zHB4ZAWEvFwbm2xW8UNSXNAN7d1jco1ks9rdzxe+l14NQGuJ4UKrncxhIGtuVSV2LviiIzakWunVmyS43TwRuLnNAGpJWv13iBQUj8jzcnUNGriPZaTjuLVRiZA1+g1cTz2Wl1Araud5ZmJdu5x3W2Ml9scu/h1afxNwtrfqzM12Lb/cLEOvsNqGhwym++V3Hey5rS9N4nVOF3Qsbtcm4C2Cg8PmyDPPW5XH/AEs/ZL/HEYzY3ajxagxM5IJ2OJ1ynQrPLBk1stQl6GqqS0+HYm4yM1AlbbX3CusM6hkzMocYgdTVR+lshH9OQ+h9Vlccb/VtLlPZYrRtqYHAi4I+65R1HhT6ScnL9LtfZdqmiyhwt8LRussMMkLnt0trZU15XHJbZhM8HLC0BymUj9bbrBPEQ4i2x2XulcQ8cr0u+HkWcrvv8NcIdV41VEXfGyJg9iST+y+gGG7T7rhn8OVO6LDq2q0P4hzojrsYyCP1Dj+i7kwfSujX/WMdn9qZOiEaI1V1BZHCVvVGvyge6Ed+6LfKA250QEbpXP6IGCChCEBxolryU9jZLhQC2id90HRIaqQ90X5CP0S0QBHdMeqV07XQCEIQCEIUgXyr/EXhTMP8Q5KhjLCtpo5j6uF2k/YL6C6r60bgc4oKMU8teWeYWzOIa1vGg1JXzv40Y5X9R4rQVeI0MFLLFC6BroZC5kozXvYi49lhs2Y/175dGvTnz788JHgZh5knxCrI0Y1sY9STc/YLq+JaQ2abEDbutV8GMK/C9MzVbhrNMbezRZbTicJlaQL6+q83b5tehpniRzzqWtw2mIfjNU+KjGvkRH+rUn/S0cDu5a3N13jmI0lT/wCG8Io6HDqRuZ1m/laOPUreavAMPjnfUTYbHUyEWzvi8yw+VROwfBw6T8O4UEkgLXindk0O4LDoVGu4Y+22eOeXppVH1ri1ZRyT1OPUEFQx9mUs9I7+o3uHtFh7FYo+pGYlK41dM2lqGEf+ZiF2XO2b0Pqr6XoDp1mv4+o76yNH+Fmo8HpcPhqaLCKuIMq/olFTEJg4ca8fC3yz15TjDDVtxvUzB6pzg0uBbI3QgHT3HoukYJTGSBkjrnRc66dwatoY5KKsbG7yiBBKwk5mnca8DhdOwwup8PawDi11x5YyXw7O9h17WiM6fK0rGqoNB0FrrZ8QqXgG+q0/EAaiQ3AVLfwnHDjV8Vq3NbfIXucbNaBcuKjNw0RQ/iMXrmUrLX8tjw23u7cn2VhjE7MOsymbHLiD2Fwz/lgb3PcngBZx01gdf0bWudXsqeoposzXVRLCCDcsjDgAOy6tWvvthu2XGdkVlPifTDW5YscMb/8AlleNfkWU+PEquMCSgxWOsjt+SWx/Rw/2WhV2LYlNTMw6uhiMcTQxvmUzWvaBsM4AP3ToaWSjoxWU1aG1Of6IGAklvc9lts0488Vhq+Tn3mUdOw/qR81mzNLHbEX0V5lp8VpzBKA5rxbXj2XNcFxpldUCOdhgn2LTsT6LfMOJjDbHZcOeNxr0JZnj2LqmjlFM2KYl74xkLz/dbYlU/UFOH0clwLgFbFA4PjBO5Cq+o4w3DpXjcBTzvllLxw2vjy1D9OVHjizH6fzKZicgfO91+b6KPSRumnbEzR8hDGm/JNh+69DH08vOeX0t4JRtw7o3BHuaGPrpnvzW/NdzgPt+y7CNGgLl0NE7pnGulsApYMtHLKACDpHJHGTILf8AMfq/VdRK7cZyccdvb0IP6I4QpQChCEAgaI0sj2QHCEI1QJCDvohAwNUWS90fKBpFB13QgaNwj1S/ZA0DRF0IBCEIBNJAUj5z8WsGr2+KE1RBLIHyiGSEg7aAW/ULTOuqmeqx5sVW5jnULRGWN2a46uJ9f9l3DxDpWydc4VIQNGte4/8AK0OJ/wALmXUGB01SKyp8yASSyGR+YnOCb3t3C8nK825V7399Guf+nROiKUYd0XhdP/c6ESu93ku/yFZSRF2q8UuWGjp4m6NZExoHoGhTInMLLELPO9VwnFPPFa/0qqq6Cmq/pqKWGUf87QVtUsDX+yiPomXvlWVldMsac/pPB3HMKGIewKz0+AwwuApqZoP/AChbOadjdmheo7MdYBTKjJVUmCFrxJOQXD+0bBT6nSOzdAOykSkk2GpUOrc7KRqAoqcIpcRlsC3cqlmgLjmCtMQDiCSDYKJTua6wdssmlOgpGmEtaRHJcm9gTf3VdiNHjMYFhHWx3vlJylbFFTh1jaykNppObEcHlbY5eGX15etDfNIP6dRh1c0cjJ5jSsX8tfWEspaGaK/L4sgK6EYC0flSZE927UuVT9Z+I0Wl6JDXCSW2f0H+VdU2EPpbAOJC2dlKORqscsAbsLKPftHpDgaWxgdlD6jbnwmYD/TurItsqrqN/l4VMewWuMY5OF1rSJpASNCbq28M6eKv8QunqSdrXRyV8WZrtiAb/wCFWYgc1Q91tST8qLRuqaOrhraWaSCoheJIpGGzmuBuCCu7Hk8vMy7e8fYrvLrMf6Zje4uqG1VTOLjXKyJzXH9XBbsV8ru6rfTsiq55cQq6xrLvqjM7MCdXWN9LngLq3hR4ivxuVmGVlQ+oEjSYJZDd4I1LCedNlOv5WGWX19LbPhZ4Yfd1FA90IXU4h90I5QVAPdF0JKQJoRfuoByhK6FINk0JWugZ9Uk/hG5QK6e6NEEoBK1kzuj3QCEIQCOUIUjm3iCf/cgfexZSAD5JuuZ11J+Mq2xbOe63ouneItM/+dseP+NTWb/2k/7rnsVVHHiTY5W2LQfdeJ8n/wAtfQfFv+nH/wCN4ppxLSwvGzmNP2Uynk0tdU+FvzYXT2P5Q5l/ZxU2N+1lW1GMWeYELHINNFjEossM1RladVPWsjzJKG72UePz6px8kWDTYvPChVNW57rBUeN9V1GE0baejpn1FS4nLGDYE9yVSWLWVusH4eKLy/NL5CbvJTngp8ou8G65Hh3iLicFeKfqHCJKFrzZlRFd0Y7Zu3utxOMFwyh1/VWvj2rjO/lOxCKIZ2k3BFlrzYZaZ97Zmj7rW8f8T8Mw2rdTtM9VIx1n+UPpae1yrTp/rzCMfjIhe6OUD6o5G2I/3VbhlztnhaZy36y+W3YfNHUxBzDtoR2KtIWgDa60/C69sWKzRMP9N7Q+3Y7Lb6OUPGiiLWcSvwzXDQIFOBwpMeW3um8iyvxTqvnaGDZQJ3hWNWQASqaaQFxCr3hxje9UPVc//pcze4Vw95C1fqOfzh5XBVpkzscxqaMucXEan7rLhmFTYhUxwRtP1OsT2HdWuIUcpafKbmttopPSNY+lqHNlYC4i17bLbLbeKYaJa2TEKKGmwmSMNBLWWXnw0ZLh/WmGMZcB00Zt7lS65onoZr6lwA/UhX/hlg/8x60hqQz+nATKT2DRYfey5tUt2Yyft17LMdOdv6rvR3S/RGqF775YcabIAQla6B90DZGyWiB+qEItooCQmeyFIR1T2S07p7IECD8oKZKR/ZAEp8oQgL7oR9khdA0BA3QgEIQg1HxHw51VhsFTGcskT8od2vt9wubVtPTYhAySaeCCsI+rOCCCDbRdrxmh/mOF1NL/AHPYcvo7hc1wrAKHFK58GIxEMdla2Rmj2yX2ae5tZeX83H65fb9vW+Ft/wBdxv4VXTsgGGywCUTGCYsMjdA64B0VlFJZ1yVXYXSSYdVYrQSiz4ZGG42cCDZw9x+ylZztdcsvh1znU7zfpP1X7KBVTEusCvTpDlteywFwALiQotbTwGRZtee6KjCaesAErdRqHDQhe6aZrjcKUZmga7pMVbkqp8FZJE6J7s7SLfULrWq3B8Sic6Gnizs2BDrCy3ZsjHuuSspawjS1lb6olc8oeiaaGFpq6Gmlk4BbcArNL0o57miKKmga3bK237Lbp3NzWB1WNzmkevdVsq8y5VFQ4SKAl2cySHdxV7h872O12WCVjQ3Nde6WQEW0Wc8Ve3rYoZ/o1K9PnuFUR1OQWXp1Ubb2WnWdjLVzk3VRJLd26dXVaHVQhLmNydVXpzwzTPDYzqtWrJM8z3u21AV9XTeVAXcWWsPqA2oaCM1vqt3KtFJBSwgAXbmLZW6enK81mGQwYk90IAJOzVjwqrrnTPiFG50r9bu0sVNjopIHyVOISxwNG4J2UZNsHqoc/wAuGmaT5kz2sHsNSu2eFvT7cLwd1c5lpasjKSNcg2/U6rl/RWAy9W4/HIyNzaZrbBzh+WO/1O9zsF9BQwsp4mQxNDY42hrQOAF2fB1dt2X8enn/APJb+YzVPz5r2j3QjYr03jBB9kI1UgKNkao+6AtdG6XCZ2QCErXQgY13SHcJlLhAbp7I7o+UAkdUGwTCBacFPf3Rylygd7e6N0DTSyAgEIQgd1zXq8P6bmqDI2pZTVEnm09RT/mik3yntrsfVdJVT1RSwVuDz09TG2SORuUtcL3WHyNM24/Wt9G7+LLv4cewHFn11fPHWVprcRmpzLUSnL/a4Na2zdAADZWLnWdqs2E9B4f0thb6uipPKmkec7ySXZDs3XjYqO8/UvL2a7r/AMa9bTtmzzHtzrtJ9FUYjXlkeU6dyrX8zD3stSx2KpljeyPQkEXWc9t6T+r4aMCOP+pIf7QgdT4jUWLWRsbt3WkQYBi1PiQMskID9Q55NgPhbDDgWNy5hDUULWf6g5xv9l0SSGEtXsWM4lcHNG70tdTJcbrGQB8UUTnHgHQFa8em+oYmjyjTz8/RIRf9Qoc9Bj5Zd+HyDJyHAqe4xv8AwZX1V4/GsQ8wvlFOy2pDTchY3dSOhZeVtmnkLXvwOPSs0oJdTvmAv91FrKTGmxgy0EuX0IP7JzGmWvLH23aDHI6xuVjhmtqCd1mo68NqAHXAvZcpmxWpwyTzC2WLKf7mkLY8E6j/AJi5jjcOO/qss9XPLH7TvHTPMGbQjVJ77AjlVuFPknkbfUBt7lT5gFhVuoE+YndEDbr1L+ZZIW2+VERarsbkEdPZxsALn2WrOppZKcVAFy43Vz1XI6WExMNi7RYMCrKPE6ehpnvsJZGwuLd9je36fdWyvJ0xeMKrq+CN0ojzRsIBJGjTxqpNBg9Tj9bG+Zj6qplfaKEflB9lseIYZFSU8+GiMsaDA9rWC5Ljrb7rePC/CGRSVNc+MZ2jymE/2jlT8XH/ALF5PSnyN80Y/b8tk6Q6Xh6XwxsP0vqZAHTSDv2HoFe3CaWy97HGYz6x89nnc8rll7o+EJap34srKhCDtygaaIBLhPshAIulZNAIQhAuPRP2QlygCLhPhF0kB7oF+EzvqkgLWFk0v/t0aoGkn6JIHshF0BQBQ8Qh/EeXFwXXKmJFoJB7KRAxLDWVGGzQNGpYQPdclndkkcDwbWXalyLrWgdheNTNaLRyHzGex/8AlcPzcPEyd/wc+W4q4TBRRC2apIPOqxsmubKRE0iTMOF5r1CqcAiqmZb5HDYhVE9FW4WS5zC9gP5mf5W1RzB7Qb3RI7M3LbTsVeZcWxysqqwLG6UkNqLhw2PYq+nxfC22BhD221I5K1uswyJ0hdGHRO5Ldio0lP5cZbmN/sVebeeG32lvUnGMcoIWkQNLjwOAtSqsYlqSQCbH0tZWc2Gtn+kkC+6m0eBUcLBmb5j+7lF2xa5yRrLKaTER5RhMjCbkOG5VpS9PiOVr3xsYbaBo2WxRU7GH6WgBOVwbYW+VnlstY29FFEKdum/Ky1EgDdFHdLlbe6wOqSTYrPqGT8xWYnIwqOx2oKyTODWG/ISIrTurq38LRzz31I8uP3OitfDvoOg6g6Zoat0tRBVxyPkEsT7Wyv0BB0Oy0/xErWtlpaMHTWV37D/K6l4ByRVPTT2sfmkjqJWPbfYEAheh8bXMp/lPbg+Vuyxvcb6bxheAQ4eZqqd8lRUkX8yW2mnFlsfSFEKDDvKA1Orvc6qO+DzKaBhtmc6xI9FeUEfkw2Xfr14659cJyPMz2ZZ3uV6kI0Qiy0UCEfCFALaJbot3TupAl2TRsgNikmjRADVCLdkIDlLZNIoGjdF0kBrdOyEIEn6co5QoB7BCLJXspDQEBGyAQgbboQC0/wASMK/FYWyuY276Y/Vb/SVuHCi4tCKjDKqJwuHRuH2WezCZ43GtNedwymUcDMobIeFY0kwfYHdVuKQ/hai4vkfq0+vZeaSpyPGuq8O+K+g9xsTYiDcFSGRHnVYKOcPYNdFYwuj50KkQahgaNlVzhjnZdCtkfGyQbWCxHDqZ4JdGxx7lRZ0l4o46ON2wHwsn4UjRWv4aOM2AAWKSMC5Cji3tXeWGi/ZRak6KfPZo7BUtbVNad/lQR4lktuo7CXO1Ud9VcnUlZIZA/YqF54WEB+y8VsthlHKTH2FrrDUlsbHTSHRrSUilcj6zrHVOO1Gt/LIZ+gW5eB3VsOB49LRVE3ltrA3y7nQvHHuQfsudYxUficSqJx/e8uUaB5Y9r2uLXNIIcDqD3Xr659ZHjbb9rY+6qbLUTwvZ+Rwv8q8a3K0ALkXgr4gM6lw6Okqnj8bTWa+51Ito75XXzrquqXvlx2cvKXCV0/sg/wD0qyAjQpfujdA0bhA0SugaEIQB2S1TtbZCAQhCgL02TSsjcKQbJ20STQL3Tv2QhAJIKaBIAT4RogCjco7Je6BoRqgoBYqnWml/6Hfssqj18ohoaiQ7NjcfsoqXEcWgEsbmHa/6HutZfI+CTKfzN+62+oGdpNt1rOLUl7kA39F4WXt9Bh6TMLxph+gu+FsNPXxvaDdcunlfC+4JDhsVlpeqpqM5ZLuao5Wkjqoqr7HRDXk65z7Ln0XXMbN3adlMZ1tFIPpePdR2nG5PqMpIcbqLPWtsSSAB2WpTdVRuvaQa8qqrep8wLQ+/oFW2rTFs+I4uxoIa7jU3WuVGIGVxt+qpH4m+Zxu4gdkCpNrA7pxeSLYVF+dVLpZyqKOYl2n2VtRtcdSopxcQPzuBsq7q+u/A4BVytOuTKPnRToLtA4Ws+Jk3l9OwM2M1SP0aCVfVPtlIw3X64WuXyG5vyhhvqvLzZJu69avE62bo7qWp6WxunxOmeQYz9bRs9vIX2f0n1FS9S4JTV9NI17ZWA/Sb2XwxTC7bHXRdp8G8bxToaekZWyRy4JiIDo3tcSY3nghTry5eI249nX0sUbrzG9ssbZGHM1wuCOV6XQwCEbpbn1UhoGyNUIDS1ktPZNCAtdH7JII9UDCEkIDj3T9EfqkgOUJ8o4CAvwhHKCEBzqjdCEAjRGyXygaN0eiWqBoQk5zWNzPc1oHJNlAa5R4n+J0VNjNF0jhMofVVMzW1crNRGzct9yB8Kz8UfFKj6VwV8OGVEU+JVALI8huIhy4+3Hqvm7pGqkxDrygklc57w6WV7nG5ccp1J+Vju2cxvG2nX3KWu03Dh6KHVUolZYBSmagL3bSxXi3y9uNLxTCwS6wsey1OvopYnmzCQurVlAJ2djw4cKhrMIc4m7A9RLYt1zZxe0klpHrZefPPytylwMOJOXLfcEKHP081zdWN9wrfyL8az57j/cU2vvqLq5d065rbta5KPByx1sh/RLnForGPcTYAqbBBJJxsrSDCDcEtA+FZU+FluzdlW5pQKGhy2015VxTQFgGikU1DkGiltgyjXdZdT1iij1+rRaV4sSgUWFRd3yO/QAf5W9kABc58V5Q6pw6IHRkcht6khdPxZ3OOX5V/11oLxfVeWjWynw0wmge231AXBUBuhFxyvU714/ExrhHYg2I7LrPh9iUGP9NHCJQDU05sG9xuCPVcdY67vdd98OfDeri6fpq+CaJ08rhKXsGrewKY+053w6t4adQSVNF/Kq15NRTizHH+4BbxZc4pqesw+eCWWjMM8Zv5jPyvXQaSqZWU0c7RbONQeCuiOes1rIKLoVkDlFkfCXCBlA7IQgEHsg6XQgEIQoBfhL9k+dEKQI+UI9EBdIa69kx6oQJMpJ8oELhP9kfCOEBwldCd9Qgi1tc2jZpG6aS2YMZ27k8Bcsjx5nWM+K4xi9dJS4Fhj3tayBxHmFpsRfm5W1+J+Ly9OdDYpU0x/wDO1DTHG7nM7T7BcFxjqxjukMN6Ywpjo6OGNslS9ws6eXc39ATf1WWzOYr4498tY6pxsV9XUVIBYxziI4yb5G8BV3QE5b1dBOTsxw09dFExckQucSPQd1I8PY82LZ+wXHn/AEtdWnznHeWs+lpbrosrdfdYMLmMkbbji11PdCWi7V5vevUnhjBIGuoWN9IybUaFZi3RDGkHZFkI4W52jmte31WB+CRB5d5H6K9iJGhsshtlTiGrT4Uyx0IUT+UsG4c74W2vDb6gH4USQAEkBV+q0tUbMOygZY7DuV7FIBudVYPfxZYC0k68qqWBzQNALALG4EnZSnMWJwANlC0qNNlY0nsLrkviJVCoxaI5riNhbp3uum43WNpKdx3PA7rjnUsj5q1xd+bldnxMf8uuX5d/wGEu1DjssWLUfku/Exi0bzY+jllwmJxgDvVWtRS/icKqGEa2Dm27jVdly5k8yeWrRROmkDGglztAByey+qfB3HZWYJR0tRD5VXTRiKWF4sXNHp/qC+WYHvjlZKw5XscHNPqNV9QUUrMW6aw7qzDI2tnMTDVNboQdiV0Ye2efp2OWGKqhDXAFpFwbbLxRQGlYYtwDcFV/S+NR4zhzHaCVgAcO/qrjRbsQj0SKakCEIQJNF9EkDQhFtUBshCFAAbJJ+qAgOUeyRTUg+yL/ACkE+yBeyeqDojf2CAKFSY51r07020uxTF6WBw/4efM8+zRqueY3/EXhFO4xYLhdXXyHZ8v9NvvbUqtzk9pktde3Kr8Y6gwnp+Az4riVLRRgX/qyAE+w3K+auqPH7qfEmuhpamKga7Qtphcj/uXOX4hWYrVmapqJZpXG7pHuLnH5Kyu79LTD9ux+LniTR9WfhaDC3SGhjBeXvaW+aToCBvb3XMpHCxa0HKsXlSy1JkdyGtAB/K0BOVzRI5o1HdcuWdyvlrPE4pMecCGsGlgrrw9pz+KD7WF1RYg0zVJF7jZbt0NQmExuI31VNuXMOOn42H+XXTsPbka223ZW8fuq2iaBlFrhWbBroNFwPQEkbXAkaFYw0tUg3I2SDfRAmC/ovThcb6LIxoI9U/KFtE4nqJJoocxA5VjJDY6m4UOenBI1KjiZUJzgDflYxd1w1TPwzb3AR5VhoFXieonlk76KPKQ0HQ6Ke5tlW1Ti8O00b904jrU8cBmkcXE5QL+65ri8eaWVx1JK6jjkJEbgBd5FgtDxKiINnN51XXovGG/zii0cflUkbb65bkK1oHNaC1w07KuDcug2CkQOyAkFb5zrzsb5UmJUZo6t1mFzc2YAD8wOui+k/Dl+H4fhNN/LnE4RWRiwkF7OO4N/W4XF6GaH8VSSy2BgnZKDvYBwJX0dJhdDRxNxKmja/B8RAMwj1ELztIOwPK6dGXWe2cR6NlR0ljPnQ3kw+QjO3/Rft6LosUrZo2SMIc1wuCtYpoI8hw+ts51sscnEjeD7hXWDwPo4DTPvlbqw+i6Yw6sOUIRorBcp8IskED+UJH2TtdAINygb3KW4QNCNt0IBF7o0sqCq6+6Wo6mSllx6gNRHfNCyUOeCOLDn0UC/+ELleMfxFdL0Mr4aGixPEJGaZhGImX93a/ZaVjP8R+OVLXDDaGhw5pvZzgZpPvYfZVuci31r6JsTxotd6j8Q+lulWH+a4xTRSDaGM+ZIf+1q+Vca8R+q8fLhiHUeISMd/wANj/LZ+jbBa8x7LFzs0jzrdxuSs8t36Wmv913fqX+JgDPD01hYPDamsN/kMH+SuZY14p9aY2XGrx2qaw7MhIiYPhq0hkj2zFw77KV5xlseyyudvtbknpIdNPWz+bUzyTPPLnXKWJ4mGRimhdljGhtu73WHOY4y8aWVa534ia5J0VRkiYZTdx3VtQQZBe31FQoWAWHHJVhBJlbcfCrlRYOIhabO+sjVRC4C5J4WF8rnP1cbr24/Q42voqSJ6rqVonrADy5dR6aoskcbgNuVzTCg12JU+a1i+y67gEeVjRwFjud/x/6tsoo8sYJUxrTfusFENACNFPEdguex0SvGTQDkp5SNl7y90Zdd1VYmgXXoC4SIJ22XoC4spSxSt0OqivjJGvKmPZcLw6LkhKRDEWqb2Aca7KQRc6JObfhRxKBOzTQKtla1zjcbq6mju0n0UKanPl6bkJxDVsRpTJKZSDZosB6rSeoY2wvYz+55Jsul1sZiifJJlaxjSSfZcdrq99fWzVbiSHmzRwG8BdGnG2uX5GfMWJzrC4JRFPYarAZQ7S+q82JO+l9V03FwJ92uFtQtm6U8Tcf6IiNLBM2uw1+j6Oq+phB3yndq0vzC0blY3vf5Zu4uHqpxll7E29nK+pvD/wAQ+nOtaZuHOl/CVjNWQTOs4ejXcrpMUZjjaxxzFul+6+E6aZ8L2yRuc17TcEHUFdY6F8fMUwB8dFjZfiNGLAOcbyMHoefldWO38Vjlh+n0ukVTdM9ZYH1dSifCK+Gc2+qK9pGe7d1dLaXqg9kbI3R6qQIshF9UAjdHohABCEIPnrxl8aXVr5unenKhzKVt2VVZEbGU8sYeG9zyuHxEhxdGXNcDmBG4KzSDK7Na7SsYuJAQdFx5Z23reeJyPVRiM9QbyEl5Op7rG2Quvf8AdeZYxmJ3KGABVtHtwzWN02XAsg76ad16y2cDuiHiWIWzDQrzHcWDtCsma+h2C8j6n76NCgYq2TJHbuvFHFYXJ1Kx1RMkwap8MYawW3Kt+Bkij42UmOMAkLGGkL25xaNlnfIxv0IHK9yvIhJ12Ud0n9TMbBo1JUSpxqJ94mMLuM/CtxPYywHI9kl8tnB1/Zdq6feySKM3/OAbrihA8tvtsto6M66lwmpFLiGaakBs11rviH+QsduFynY69G3HHxXdKAAtAsrG1xtpsqjB62nraSKpppRLFILtcNiraOTNouXrr9k9lwvJjI0UjLccoDQFWxaMTY+SdF7yABZLE6BevLI3KcWR3AbWWMt4ss7tCbLzYkqEsBjHZBhHAWcMGyZb9NhukRUN7AdAFFc0EDu3S3ZTn2G6qsXxOmwukmqp5WxtjYXnXU2G3ur4xS5caZ4k4vHQ4YaFrx+Iqxaw3azk/wCFypwDIQp2L4vPj+JS19UTmmdZrf8AQwbNCrqqTO8gDQaD0XZrx5Hnbs/tWFzhfRZI36C6wNGuu54WVrbDTvstGPWV9lgkIsQshBHc91jdHvYcIdeohcX2uvb2h9j25S/K024C9M1GvCI690lZU4ZPHU0VRLBOzUPieWkfIXW+jP4isWwsx0vUMDcTphp5zbNnaP2d82XHiS46cIyjchWmVno532+0uluu+nusoBJg+IxTPAu6Bxyys92nVX9tF8I01TNQVDKmklkgnjN2yxOLXNPoQuvdGfxDY1hjY6TH4W4rCNPOByTAep2ct8ds/Klw56fSCFrPS/iP031aGsw+vaypI/8Axp/ok+Ad/hbNzqtZe+lC12R6posUAhHKFI+EGXy6m/usLjlkH+m+izyNyuH+FjkOouAFwtxIL+5XgaX3WV+ywm+4JCJeiCvQFxYOXkEE3TJyNN9rIh5kOQ6C5JXoNLWHT3XmKMuPmu52UhrQY3GyhCqj+ucnsraECzdFV09xI73KtYbtsOVOQksaCACsdQ+NosbAcrHU18VI3M4i9tuVR1uIy1zj/Y3sFXHHqTxGvEz3RxaR337qDYjVexF6KQ2lLo7gLX0hkoqguBjeb9rqXkLZQ+26rIGG4INrFWQc4xtJGoKrfa34dH8Nerv5XUtw6ultSTu+lxOkTzt8Fdoj20t7hfMdDIQwlpsRqF33oTHhj+AQyuN5Y/6chtb6guPfr55jt+Nn2fWtla4jkr02zisZBBFjceq9He+ywjsjKLtQXab7rwCRygn1QkBA52S2GiAdEC5GqcSYsBssc0jY2Oe5wY1oJJOwC9mwF76rnHip1WaWIYJSSWkkbnqHNOrW8N+VbHHt4z2Z/Wdqr6v8UanzJqXBJGxxA5fxBbdzu+W+w9VzasxOtxGUvq6iSZxO8huUSyZ5DYbd1GmqGUwMj/gLsxwknI8zLZcr5S44wMvoFFmtmJCp5MSmNR5zHEa7cFWLKxtZGHAWeN/RX+vGdptBLrlSGtuVhYNf8KUy2iHCtroNuF5e2zST2KyuudtPVYpDdpBPfhRKhjJOXTay9Rn6DpuvG8WnZZYmnJawsrJYQS15BWQgOFr2KxztLLScXXppDmg/oiHnZK532KygC2oSsPdEskFTLAWkPcC03aQbEHuF1Xofx9xjATHSY2X4rRbBzzaaMejv7vn9VyW4PoN14Ltd7lTMrL4OSvtnpfrLBOsaP8Tg9aybKAZIT9MkX/U3ce+yuzqvijp/qSTperixCnnqBWRG7PJfkt6E8j0XefD7+ILDepayDCsapDh1XKQyOoDwYpHdj/pJ/RdGGyX2zyws9OvWQgoWqj4VDvMZcdlgk9EIXA2N4+lYgM2qEKUvTR6/C8WM7g0aBCEGV5tYDZZ5Tlp3EEA5eEIUI/KrpL2zEXK9VeITt+mNgHrZCFIgCKWZ+Z+ZxPKzsoyhCnp1JjpNRcKayANbYgWQhVtFeIRHVOjtoTdS3xGPNa5ae6EJUMtC4tcdiukeE2JOpMZnoSR5VUzzACf7m9vhCFTZ/VvovM47ATmAJTO+iELierBsg6oQoqQ2xXoW2shCgqHjOIQ4RhlRXVBsyFhcfU8D5K+c8XxGpxnEZqqR15Jnl7j2QhdOnGPP+VlfSrr6+Kk/p2Bkbx3VHNJLVvL3/AGwQhdeM45HnyCNbL1C59PIHtHuO6EKRbwzNkYHM1PbspELrt137IQqVDKQ4jbReXM013QhV/KUSJxc0Nus7rNFuShCuG5maMjg6qLTkx5mHhCFEGcmwtvcII1AsAhCkJ+VrdFhy2BkdpbZCFBGJp812Y/ClNcI2jTlCFKZX0r4DeJz+pqB/T+LT5sSo23gkedZ4v8ALm/cIQhdWF7GOc5X/9k=" alt="Portrait of Sherine Arputha Maria John Kennedy">
+    </section>
+
+    <section id="story">
+      <h2>The short version</h2>
+      <p class="lede">Three chapters, one habit: find the manual step, ask why it exists, remove it if it should not.</p>
+      <div class="proof">
+        <div><strong>7+</strong><span>years across network and business operations</span></div>
+        <div><strong>25%</strong><span>fewer process errors after SOP standardisation</span></div>
+        <div><strong>L4</strong><span>AI Champion, reached ahead of the target date</span></div>
+        <div><strong>12</strong><span>AI programmes completed across three tracks</span></div>
+      </div>
+    </section>
+
+    <section id="foundations">
+      <h2>Before AI: the foundations</h2>
+      <p class="lede">The credibility came first. Everything AI now accelerates, I had already learned to do by hand —
+        which is why I know what is worth accelerating.</p>
+
+      <div class="chapter">
+        <p class="era">Jun 2022 – Present</p>
+        <h3>Learning to hold a service to its promise</h3>
+        <p class="where">Operational Excellence — Senior Analyst, Cognizant Technology Solutions
+          (Global + Life Sciences) · Building the operating system for a global operations team</p>
+        <p>I moved into business operations and found the same problem in a different costume: the process existed,
+          but it lived in someone's head or in a spreadsheet nobody trusted. So I built the parts that were missing.
+          The Unified Process Documentation framework — the One Stop Solution repository — gave the team one governed
+          standard for how processes are written, versioned and handed over, turning scattered tribal knowledge into a
+          searchable source for queries and guidance. Standardised SOPs across T&amp;E, bench management and resourcing
+          cut process errors by 25%. And the interactive Budget YTD dashboard replaced periodic manual roll-ups with a
+          live view of commitment against budget, so funding decisions stopped waiting on a report.</p>
+      </div>
+
+      <ul class="rows">
+        <li>
+          <h3>Ericsson Global India <span class="years">— Jan 2021 to Jun 2022</span></h3>
+          <p>Service Monitoring RAN Engineer. 2G/4G/5G monitoring and first-level investigation for MBNL Hardy
+            (EE &amp; H3G) through U2020 and LSMR.</p>
+        </li>
+        <li>
+          <h3>Nokia Solutions &amp; Networks <span class="years">— Oct 2018 to Dec 2020</span></h3>
+          <p>RAN Performance Management Engineer. LTE and 3G performance and alarm monitoring for Vodafone
+            Hutchison Australia, with end-to-end P1–P4 ticket ownership.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="ai">
+      <h2>When AI arrived: adopted in months, not years</h2>
+      <p class="lede">Cognizant set an organisational target of Level 3 by mid-August 2026. I finished at Level 4 —
+        AI Champion, the top band, with the training and certification dimension complete.</p>
+
+      <div class="chapter">
+        <p class="era">2026</p>
+        <h3>From curious to Champion</h3>
+        <p>Twelve AI programmes completed across three tracks — Gen AI fundamentals, context engineering, and applied
+          AI development including Claude Code as a GenAI-assisted developer. But the certificates are the smaller
+          half. The real change is that Claude AI and Microsoft Copilot are now part of how the work actually gets
+          done, every week, on live operations deliverables.</p>
+      </div>
+
+      <div class="tools">
+        <div>
+          <h3>Claude AI, daily</h3>
+          <p>Drafting and restructuring process documentation, interrogating operational data, building the knowledge
+            base behind team queries, and turning long reporting threads into decisions.</p>
+        </div>
+        <div>
+          <h3>Microsoft Copilot, daily</h3>
+          <p>Analysis and summarisation inside Excel, Outlook and Teams — variance commentary, meeting outcomes and
+            stakeholder updates produced in minutes instead of hours.</p>
+        </div>
+        <div>
+          <h3>AI-assisted workflows</h3>
+          <p>Recurring operations tasks rebuilt around AI: report preparation, content creation, data analysis,
+            communication drafting and knowledge capture.</p>
+        </div>
+        <div>
+          <h3>Bringing the team along</h3>
+          <p>Showing colleagues where AI belongs inside a governed process — and where human judgement still decides.
+            Adoption only sticks when the process underneath it is defined.</p>
+        </div>
+      </div>
+
+      <div class="feature" style="margin-top:2rem">
+        <p class="kind">Bluebolt Insight — published August 2026</p>
+        <h3>Beyond the Spreadsheets: AI's Turn to Tame Travel Cost Turbulence in Life Sciences</h3>
+        <p>Mobility and travel cost in Life Sciences is still forecast the way it was a decade ago — a spreadsheet, a
+          last-quarter average and a hope. My published insight makes the case for predictive, AI-assisted
+          forecasting: treat travel demand as a signal to model rather than a number to estimate, and give budget
+          owners a forward view they can act on. Reviewed and published on Cognizant's Bluebolt Insights platform.</p>
+      </div>
+      <div class="feature">
+        <p class="kind">Bluebolt Idea — submitted</p>
+        <h3>Budget Bolt AI</h3>
+        <p>An AI-powered platform that combines predictive analytics to forecast costs associated with business
+          travel, employee relocation and visa stamping. By analysing historical data, company policies and market
+          trends, the system provides accurate budgeting insights and financial planning tools. It dynamically
+          adjusts expense predictions in real time as policies and market conditions change, with a user-friendly
+          dashboard for visualising trends and optimising mobility-related costs.</p>
+      </div>
+    </section>
+
+    <section id="work">
+      <h2>Process excellence</h2>
+      <p class="lede">Process, analytics and knowledge management — the three things I keep being asked to fix.</p>
+      <ul class="rows">
+        <li>
+          <h3>Interactive Budget YTD dashboard</h3>
+          <p>Live year-to-date view of travel and expense commitment against budget, built for leadership review
+            rather than data entry.</p>
+          <span class="impact">Funding decisions made on current numbers</span>
+        </li>
+        <li>
+          <h3>Unified Process Documentation framework — the One Stop Solution repository</h3>
+          <p>One governed standard for how operations processes are written, versioned and handed over, held in a
+            single searchable repository for team queries and process guidance — so answers no longer depend on
+            catching the right person at the right time.</p>
+          <span class="impact">Consistent handover, fewer repeat clarifications, less single-person dependency</span>
+        </li>
+        <li>
+          <h3>Automated operational reporting</h3>
+          <p>Daily T&amp;E status master tracker and pending-request views, generated instead of consolidated by hand,
+            with billability and approval status surfaced up front.</p>
+          <span class="impact">Manual consolidation removed from the daily cycle</span>
+        </li>
+        <li>
+          <h3>SOP standardisation across T&amp;E, bench and resourcing</h3>
+          <p>Standard operating procedures designed and rolled out with quality control built into the steps.</p>
+          <span class="impact">25% reduction in process errors</span>
+        </li>
+        <li>
+          <h3>PTR versus budget reconciliation</h3>
+          <p>Variance analysis identifying where planned and actual travel requests diverged, with root causes traced
+            and fixes driven through the central team.</p>
+          <span class="impact">Reporting discrepancies closed at source</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="recognition">
+      <h2>Recognition &amp; credentials</h2>
+      <ul class="rows">
+        <li>
+          <h3>Level 4 — AI Champion</h3>
+          <p>Highest band on Cognizant's AI fluency framework, reached ahead of the organisational target date, with
+            the AI training and certification track complete.</p>
+        </li>
+        <li>
+          <h3>Published Bluebolt Insights author <span class="years">— August 2026</span></h3>
+          <p>Thought leadership on AI-assisted travel cost forecasting in Life Sciences, reviewed and published on
+            the firm's insights platform.</p>
+        </li>
+        <li>
+          <h3>Process and knowledge management impact</h3>
+          <p>Unified Process Documentation framework and One Stop Solution repository adopted as the team's reference
+            points for process guidance.</p>
+        </li>
+        <li>
+          <h3>Education</h3>
+          <p>B.E. Electronics and Communication Engineering — Francis Xavier Engineering College, Anna University,
+            Tamil Nadu.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Let's talk</h2>
+      <p class="lede">Open to Operational Excellence, Business Operations and Program Management roles — and always
+        happy to talk about where AI genuinely helps an operations team, and where it does not.</p>
+      <ul class="contact">
+        <li><span>Email</span><a href="mailto:sherinarpa14@gmail.com">sherinarpa14@gmail.com</a></li>
+        <li><span>Phone</span>+91 87786 27634</li>
+        <li><span>Currently in</span>Bangalore, India</li>
+      </ul>
+    </section>
+  </main>
+</div>
+<script>
+  (function () {
+    var root = document.documentElement,
+        btn = document.getElementById('theme'),
+        label = document.getElementById('themeLabel'),
+        saved = null;
+    try { saved = localStorage.getItem('theme'); } catch (e) {}
+    if (saved === 'dark' || saved === 'light') root.setAttribute('data-theme', saved);
+
+    function isDark() {
+      var set = root.getAttribute('data-theme');
+      if (set) return set === 'dark';
+      return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+    function paint() {
+      var dark = isDark();
+      label.textContent = dark ? 'Light mode' : 'Dark mode';
+      btn.setAttribute('aria-pressed', String(dark));
+      btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    }
+    btn.addEventListener('click', function () {
+      var next = isDark() ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      paint();
+    });
+    paint();
+  })();
+</script>
+</body>
+</html>
